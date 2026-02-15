@@ -1,1 +1,25 @@
+{
+  "icons": [
+    {
+      "id": 1,
+      "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNDIvMTgvODQ1L3ByaXZhdGVfZXZlbnRzX2ljb24ucG5nIl0sWyJwIiwidGh1bWIiLCIxNzl4MTczI2MiXSxbImUiLCJwbmciLCItcXVhbGl0eSA1NSJdXQ/private-events-icon.png",
+      "alt": "champagne and champagne bottles. "
+    },
+    {
+      "id": 2,
+      "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvMzkvNTkvNzUwL3dlZGRpbmdzX2ljb24ucG5nIl0sWyJwIiwidGh1bWIiLCIxNzl4MTczI2MiXSxbImUiLCJwbmciLCItcXVhbGl0eSA1NSJdXQ/weddings-icon.png",
+      "alt": "Wedding cake."
+    },
+    {
+      "id": 3,
+      "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjkvMDkvMDcvMzMvMjYzL1VudGl0bGVkXzEucG5nIl0sWyJwIiwidGh1bWIiLCIxNzl4MTczI2MiXSxbImUiLCJwbmciLCItcXVhbGl0eSA1NSJdXQ/Untitled-1.png",
+      "alt": "Icon of a human."
+    },
+    {
+      "id": 4,
+      "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNDIvMDkvNjQwL2tpZHNfcGFydGllc19pY29uLnBuZyJdLFsicCIsInRodW1iIiwiMTc5eDE3MyNjIl0sWyJlIiwicG5nIiwiLXF1YWxpdHkgNTUiXV0/kids-parties-icon.png",
+      "alt": "Icon of a childs birthday party."
+    }
+  ]
+}
 
