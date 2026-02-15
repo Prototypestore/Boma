@@ -84,6 +84,36 @@ nav a:hover::after {
   width: 100%;
 }
 
+nav.active {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Optional: animate hamburger lines into X */
+.hamburger.open svg rect:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.open svg rect:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open svg rect:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Smooth animation */
+.hamburger svg rect {
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
 /* Hamburger visible on mobile */
 .hamburger {
   background: none;
