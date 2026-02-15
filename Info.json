@@ -1,0 +1,16 @@
+{
+  "gallery": [
+    { "id": 1, "src": "https://peboma.co.za/system/images/W1siZiIsInBvcnRmb2xpby8xL2VhMjBmMmRkLTU1MTItNDk3Ni1iYzYzLTc4ZGYwNWE0ZjliNC9Cb21hIEMgU2VjdGlvbiBTZWF0aW5nIEFyZWEuanBnIl0sWyJwIiwidGh1bWIiLCIyNzB4Il0sWyJlIiwianBlZyIsIi1xdWFsaXR5IDU1Il1d/Boma%20C%20Section%20Seating%20Area.jpg", "alt": "Image of tables around a chair." },
+    { "id": 2, "src": "https://peboma.co.za/system/images/W1siZiIsInBvcnRmb2xpby8xL2VhMjBmMmRkLTU1MTItNDk3Ni1iYzYzLTc4ZGYwNWE0ZjliNC9Db25mZXJlbmNlIGF0IFRoZSBCb21hLkpQRyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/Conference%20at%20The%20Boma.JPG", "alt": "Elegant outdoor conference." },
+    { "id": 3, "src": "https://peboma.co.za/system/images/W1siZiIsInBvcnRmb2xpby8xLzllMWQ2NmM5LWVkYmYtNDY2MC1hOGQ1LTFjZWU0YTI0NzNkMS9Cb21hIGNlbGVicmF0aW9uIDJzLmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/Boma%20celebration%202s.jpg", "alt": "Celebration tble." },
+    { "id": 4, "src": "https://peboma.co.za/system/images/W1siZiIsInBvcnRmb2xpby8xL2VhMjBmMmRkLTU1MTItNDk3Ni1iYzYzLTc4ZGYwNWE0ZjliNC9TZWNyZXQgR2FyZGVuIENlcmVtb255LmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/Secret%20Garden%20Ceremony.jpg", "alt": "Garden ceremony." },
+    { "id": 5, "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNTMvMDkvMzE3L2dhbGxlcnk0LmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/gallery4.jpg", "alt": "Fire camp outdoors." },
+    { "id": 6, "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNTcvMTQvNTYwL2dhbGxlcnk4LmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/gallery8.jpg", "alt": "Outdoor reception entrance." },
+    { "id": 7, "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNTYvNTYvMjU2L2dhbGxlcnk3LmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/gallery7.jpg", "alt": "Table full of pastries." },
+    { "id": 8, "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNTEvNTAvMTM2L2dhbGxlcnkxLmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/gallery1.jpg", "alt": "Child Horse riding." },
+    { "id": 9, "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNTIvMDEvOTE1L2dhbGxlcnkyLmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/gallery2.jpg", "alt": "Wedding picture." },
+    { "id": 10, "src": "https://peboma.co.za/system/images/W1siZiIsInBvcnRmb2xpby8xL2VhMjBmMmRkLTU1MTItNDk3Ni1iYzYzLTc4ZGYwNWE0ZjliNC9lNjllYTFjMi02Y2RhLTQxMGYtOTJiZC00MWJjZWEwNjg4ZTQuSlBHIl0sWyJwIiwidGh1bWIiLCIyNzB4Il0sWyJlIiwianBlZyIsIi1xdWFsaXR5IDU1Il1d/e69ea1c2-6cda-410f-92bd-41bcea0688e4.JPG", "alt": "Wedding venue" },
+    { "id": 11, "src": "https://peboma.co.za/system/images/W1siZiIsInBvcnRmb2xpby8xLzdjYzg5YmY3LTVjNzgtNDVjMC05YzIxLTY1YzU4OGEwM2VmNy9Cb21hIGNlbGVicmF0aW9uIDFzLmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/Boma%20celebration%201s.jpg", "alt": "Table set-up." },
+    { "id": 12, "src": "https://peboma.co.za/system/images/W1siZiIsIjIwMTYvMTEvMjgvMDgvNTIvMjQvMzMwL2dhbGxlcnkzLmpwZyJdLFsicCIsInRodW1iIiwiMjcweCJdLFsiZSIsImpwZWciLCItcXVhbGl0eSA1NSJdXQ/gallery3.jpg", "alt": "Indoor conference room." }
+  ]
+}
