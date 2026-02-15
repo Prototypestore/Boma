@@ -198,6 +198,50 @@ footer a:hover {
 }
 
 /* ===================================
+   GALLERY – MOBILE-FIRST
+=================================== */
+
+.gallery {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.gallery img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+  opacity: 0.95;
+}
+
+/* Overlay for +4 on 8th image */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  color: #ffffff;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ===================================
    TABLET ENHANCEMENT (768px+)
 =================================== */
 
@@ -230,6 +274,10 @@ footer a:hover {
   .footer-bottom {
     grid-column: 1 / -1;
   }
+
+   .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* ===================================
@@ -248,5 +296,9 @@ footer a:hover {
 
   footer {
     padding: 5rem 8rem;
+  }
+
+   .gallery {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
