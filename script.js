@@ -22,55 +22,71 @@ document.addEventListener("DOMContentLoaded", () => {
       // Gallery container
       const gallery = document.createElement("div");
       gallery.className = "gallery";
+      container.appendChild(gallery);
 
-      // Show first 8 images
-      data.gallery.forEach((imgData, index) => {
-        const imgWrapper = document.createElement("div");
-        imgWrapper.className = "img-wrapper";
+      // Track expanded/collapsed state
+      let expanded = false;
+
+      // Function to render gallery
+      function renderGallery() {
+        gallery.innerHTML = ""; // Clear existing
+
+        // Show first 7 images always
+        for (let i = 0; i < 7; i++) {
+          const imgWrapper = createImgWrapper(data.gallery[i]);
+          gallery.appendChild(imgWrapper);
+        }
+
+        // Handle 8th image
+        const imgWrapper8 = createImgWrapper(data.gallery[7]);
+        const overlay = document.createElement("div");
+        overlay.className = "overlay";
+
+        if (!expanded) {
+          overlay.textContent = `+${data.gallery.length - 8}`; // +4
+        } else {
+          overlay.textContent = "Show less";
+        }
+
+        imgWrapper8.appendChild(overlay);
+
+        imgWrapper8.addEventListener("click", () => {
+          expanded = !expanded;
+          renderGallery(); // Re-render
+        });
+
+        // If expanded, show extra 4 images BEFORE the 8th image
+        if (expanded) {
+          for (let i = 8; i < data.gallery.length; i++) {
+            const extraWrapper = createImgWrapper(data.gallery[i]);
+            gallery.appendChild(extraWrapper);
+          }
+        }
+
+        // Add the 8th image last
+        gallery.appendChild(imgWrapper8);
+      }
+
+      // Helper function to create image wrapper
+      function createImgWrapper(imgData) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "img-wrapper";
 
         const img = document.createElement("img");
         img.src = imgData.src;
         img.alt = imgData.alt;
         img.loading = "lazy";
 
-        imgWrapper.appendChild(img);
+        wrapper.appendChild(img);
+        return wrapper;
+      }
 
-        // If this is the 8th image, add overlay for +4
-        if (index === 7 && data.gallery.length > 8) {
-          const overlay = document.createElement("div");
-          overlay.className = "overlay";
-          overlay.textContent = `+${data.gallery.length - 8}`;
-          imgWrapper.appendChild(overlay);
-
-          // Click to reveal remaining images
-          imgWrapper.style.cursor = "pointer";
-          imgWrapper.addEventListener("click", () => {
-            // Remove overlay
-            overlay.remove();
-
-            // Append remaining images
-            for (let i = 8; i < data.gallery.length; i++) {
-              const extraWrapper = document.createElement("div");
-              extraWrapper.className = "img-wrapper";
-
-              const extraImg = document.createElement("img");
-              extraImg.src = data.gallery[i].src;
-              extraImg.alt = data.gallery[i].alt;
-              extraImg.loading = "lazy";
-
-              extraWrapper.appendChild(extraImg);
-              gallery.appendChild(extraWrapper);
-            }
-          });
-        }
-
-        gallery.appendChild(imgWrapper);
-      });
-
-      container.appendChild(gallery);
+      // Initial render
+      renderGallery();
     })
     .catch(error => {
-      console.error("Error:", error);
+      console.error("Error loading gallery:", error);
+      const container = document.getElementById("Info");
       container.innerHTML = "<p>Gallery unavailable at the moment.</p>";
     });
 });
